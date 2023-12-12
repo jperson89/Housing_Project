@@ -1,3 +1,51 @@
+# Housing Project
+# DUE DECEMBER 14
+# Jon Person
+
+'''You have been given a set of sample data, in three files, that contain housing data. You have
+been instructed to clean the data, and push that cleaned data into a database.
+
+You will be given four files. There are three CSV files and one SQL file. Each CSV file has a
+header row.
+
+Program Location (5 points)
+Create a PyCharm project called Housing project. The main program should be called main.py
+
+Required File (5 points)
+Within your PyCharm project, create a file called files.py. This file will be imported from
+main.py by:
+from files import *
+
+Program Execution (5 points)
+I will run your program within PyCharm, executing only the main.py file.
+
+Output (10 points)
+When I run your program I expect to see only the following:
+Beginning import
+Cleaning Housing File data
+100 records imported into the database
+Cleaning Income File data
+100 records imported into the database
+Cleaning ZIP File data
+100 records imported into the database
+Import completed
+Beginning validation
+Total Rooms: 111
+For locations with more than 111 rooms, there are a total of
+222 bedrooms.
+ZIP Code: 33333
+The median household income for ZIP code 33333 is 444,444.
+Program exiting.
+
+Correct Data (25 points)
+I will look at the numbers from NOTES section above. You will lose points for each of these
+numbers where the actual answer is incorrect.
+
+Errors (-3 points each)
+For every uncaught exception, spelling, grammar, and punctuation error you make will accrue a
+3 point deduction. This only applies to program output.
+'''
+
 import pandas as pd
 import pymysql as pymysql
 import traceback
